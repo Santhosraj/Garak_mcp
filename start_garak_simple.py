@@ -12,11 +12,9 @@ current_dir = Path(__file__).parent
 sys.path.insert(0, str(current_dir))
 
 # Set environment variables for Azure OpenAI
-os.environ.setdefault("AZURE_OPENAI_ENDPOINT", "https://opeanai-eastus.openai.azure.com/")
-os.environ.setdefault("AZURE_OPENAI_API_KEY", "a00d081fe4b849beb5b5c0c4ed8d837f")
-os.environ.setdefault("AZURE_OPENAI_MODEL", "gpt4o")
-os.environ.setdefault("AZURE_API_KEY", "a00d081fe4b849beb5b5c0c4ed8d837f")
-os.environ.setdefault("AZURE_ENDPOINT", "https://opeanai-eastus.openai.azure.com/")
+
+os.environ.setdefault("AZURE_API_KEY", "")
+os.environ.setdefault("AZURE_ENDPOINT", "")
 os.environ.setdefault("AZURE_MODEL_NAME", "gpt-4o")
 
 def main():
