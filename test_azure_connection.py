@@ -12,8 +12,8 @@ def test_azure_connection():
     print("=" * 40)
     
     # Set credentials
-    api_key = "a00d081fe4b849beb5b5c0c4ed8d837f"
-    endpoint = "https://opeanai-eastus.openai.azure.com/"
+    api_key =""
+    endpoint = ""
     deployment_name = "gpt4o"  # Correct deployment name
     api_version = "2024-06-01"
     
