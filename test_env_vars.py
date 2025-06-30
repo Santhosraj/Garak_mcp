@@ -14,8 +14,8 @@ def test_environment_variables():
     # Set environment variables
     env = os.environ.copy()
     env.update({
-        "AZURE_API_KEY": "a00d081fe4b849beb5b5c0c4ed8d837f",
-        "AZURE_ENDPOINT": "https://opeanai-eastus.openai.azure.com/",
+        "AZURE_API_KEY": "",
+        "AZURE_ENDPOINT": "",
         "AZURE_MODEL_NAME": "gpt4o",
         "AZURE_API_VERSION": "2024-06-01"
     })
