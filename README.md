@@ -1,5 +1,4 @@
-# Garak Conversational Interface
-
+# Garak Model Context Protocol
 A conversational interface that connects Azure OpenAI with Garak, a comprehensive AI safety testing framework, allowing the AI model to help with AI safety assessments and evaluations.
 
 ## Features
