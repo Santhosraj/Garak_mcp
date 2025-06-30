@@ -15,8 +15,8 @@ sys.path.insert(0, str(garak_path))
 
 def set_azure_credentials():
     """Set Azure credentials from the MCP config"""
-    os.environ["AZURE_API_KEY"] = "a00d081fe4b849beb5b5c0c4ed8d837f"
-    os.environ["AZURE_ENDPOINT"] = "https://opeanai-eastus.openai.azure.com/"
+    os.environ["AZURE_API_KEY"] = ""
+    os.environ["AZURE_ENDPOINT"] = ""
     os.environ["AZURE_MODEL_NAME"] = "gpt-4o"
     os.environ["AZURE_API_VERSION"] = "2024-06-01"
 
