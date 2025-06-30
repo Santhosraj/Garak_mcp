@@ -1,0 +1,7 @@
+openai>=1.0.0
+asyncio
+requests
+pathlib
+typing
+logging
+mcp>=1.0.0 
