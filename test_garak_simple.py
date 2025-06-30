@@ -12,8 +12,8 @@ current_dir = Path(__file__).parent
 sys.path.insert(0, str(current_dir))
 
 # Set environment variables for Azure OpenAI
-os.environ.setdefault("AZURE_OPENAI_ENDPOINT", "https://opeanai-eastus.openai.azure.com/")
-os.environ.setdefault("AZURE_OPENAI_API_KEY", "a00d081fe4b849beb5b5c0c4ed8d837f")
+os.environ.setdefault("AZURE_OPENAI_ENDPOINT", "")
+os.environ.setdefault("AZURE_OPENAI_API_KEY", "")
 
 def test_garak_simple_interface():
     """Test the Garak simple conversational interface"""
