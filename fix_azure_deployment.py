@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 Fix Azure deployment configuration for Garak MCP
 """
@@ -9,9 +8,9 @@ import json
 from typing import List, Optional
 
 def set_azure_credentials():
-    """Set Azure credentials"""
-    os.environ["AZURE_API_KEY"] = "a00d081fe4b849beb5b5c0c4ed8d837f"
-    os.environ["AZURE_ENDPOINT"] = "https://opeanai-eastus.openai.azure.com/"
+    """Azure credentials"""
+    os.environ["AZURE_API_KEY"] = ""
+    os.environ["AZURE_ENDPOINT"] = ""
     os.environ["AZURE_API_VERSION"] = "2024-06-01"
 
 def test_deployment_name(endpoint: str, api_key: str, deployment_name: str, api_version: str = "2024-06-01") -> bool:
