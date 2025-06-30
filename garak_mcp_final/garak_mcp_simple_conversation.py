@@ -19,7 +19,7 @@ logger = logging.getLogger("garak-mcp-simple-conversation")
 
 # Azure OpenAI Configuration
 AZURE_OPENAI_API_KEY = os.getenv("AZURE_OPENAI_API_KEY", "")
-AZURE_OPENAI_ENDPOINT = os.getenv("AZURE_OPENAI_ENDPOINT", "https://opeanai-eastus.openai.azure.com/")
+AZURE_OPENAI_ENDPOINT = os.getenv("AZURE_OPENAI_ENDPOINT", "")
 MODEL = "gpt4o"
 
 # Set Azure API key for Garak components
